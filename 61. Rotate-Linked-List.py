@@ -4,7 +4,9 @@
 #         self.val = val
 #         self.next = next
 
-# Approach:
+# Faster than 60% ___
+
+# Approach:_____
 # Use Two pointers to find the (k-1)th element from the last 
 # make the kth element the head and (k-1)th element point to None
 # Tranverse to the end of the new head and make the last element point to the previous head
